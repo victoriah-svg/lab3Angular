@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+/*Fjalla one*/
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    background-color: #F5F1E8;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+p {
+    max-width: 65ch;
+}
+
+#logo a, h1, h2 {
+    font-family: "Fjalla One", Impact, Arial, sans-serif, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
