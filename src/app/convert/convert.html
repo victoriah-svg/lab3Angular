@@ -1,12 +1,15 @@
 <h1>Konvertering</h1>
 <div id="inputDiv">
     <label for="inputC">Konvertera från Celsius till Farenheit</label>
-    <input type="number" id="inputC" [(ngModel)]="inputC"> <!--knyter till modell, får 2vägs databinding (importerat FormsModule i ts)-->
-
+    <input type="number" id="inputC" [(ngModel)]="inputC">
+    <!--knyter till modell, får 2vägs databinding (importerat FormsModule i ts)-->
+    <button (click)="farenheit()">Celsius till farenheit</button>
 </div>
 
 <div>
-    <button (click)="farenheit()">Celsius till farenheit</button>
+    <label for="inputF">Konvertera från Farenheit till Celsius</label>
+    <input type="number" id="inputF" [(ngModel)]="inputF">
+    <button (click)="celsius()">Celsius till farenheit</button>
 </div>
 
 <div>
