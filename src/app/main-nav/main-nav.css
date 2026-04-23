@@ -9,7 +9,7 @@ nav ul{
     list-style: none;
     display: flex;
     gap: 1.2rem;
-    
+    align-self: flex-end;
 }
 
 nav ul li a {
@@ -20,7 +20,21 @@ nav ul li a {
 }
 
 #logo {
-    color: #F5F1E8;
+    color: #EEF5FF;
     text-shadow: 0px 4px 10px rgba(40, 37, 37, 0.3);
     font-size: 1.6rem;
+    align-self: flex-end;
+}
+
+#logo:hover {
+    opacity: 0.9;
+}
+
+nav ul li.current a{
+    opacity: 1;
+    background-color: #EEF5FF;
+}
+
+nav ul li a:hover {
+    opacity: 1;
 }

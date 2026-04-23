@@ -1,8 +1,9 @@
 <nav>
     <a routerLink="home" id="logo"><h1>Angular app</h1></a>
     <ul>
-        <li><a routerLink="home">Startsida</a></li>
-        <li><a routerLink="convert">Konvertering</a></li>
-        <li><a routerLink="about">Om</a></li>
+        <!--routerLinkActive lägger till klass current på det li-element som är aktivt-->
+        <li routerLinkActive="current"><a routerLink="home">Startsida</a></li>
+        <li routerLinkActive="current"><a routerLink="convert">Konvertering</a></li>
+        <li routerLinkActive="current"><a routerLink="about">Om</a></li>
     </ul>
 </nav>
