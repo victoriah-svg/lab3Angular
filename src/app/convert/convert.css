@@ -1,0 +1,81 @@
+#contentWrapper{
+    display: grid;
+    grid-template-rows: auto 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    justify-items: center;
+    padding-top: 20px;
+}
+
+#inputDiv1 {
+    width: 70%;
+    background-color: #D0E8F2;
+    padding: 20px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 1rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#inputDiv2 {
+    width: 70%;
+    background-color: #456268;
+    padding: 20px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 1rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#inputDiv3 {
+    width: 70%;
+    background-color: #7C93C3;
+    padding: 20px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    justify-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#inputDiv4 {
+    width: 70%;
+    background-color: #EEF5FF;
+    padding: 20px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    justify-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+input {
+    width: 25%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 0.9em;
+    background-color: #2b3885;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+label {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
