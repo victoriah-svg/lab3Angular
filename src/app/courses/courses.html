@@ -1,9 +1,11 @@
-<article>
-    <h3>Kurser jag läst hittils på Mittuniversitetet: </h3>
-    <ul>
-        @for(course of courses; track $index){
+<div id="articleWrapper">
+    <article>
+        <h3>Kurser jag läst hittils på Mittuniversitetet: </h3>
+        <ul>
+            @for(course of courses; track $index){
             <li>{{course}}</li>
-        }
-        
-    </ul>
-</article>
+            }
+
+        </ul>
+    </article>
+</div>

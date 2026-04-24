@@ -1,5 +1,29 @@
 article{
-    background-color: #7C93C3;
+   background-color: #EEF5FF;
     padding: 20px;
     border-radius: 5px;
+    width: 80%;
+    display: grid;
+    justify-items: center;
+    
+}
+
+article h3{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+#articleWrapper{
+     background-color: #7C93C3;
+    padding: 5px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+article li{
+    line-height: 1.6;
 }
