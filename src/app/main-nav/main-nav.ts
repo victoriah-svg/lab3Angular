@@ -10,8 +10,10 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 export class MainNav {
 
   hamburgerimg = "/Images/menuebar.svg";
+  menuOpen = false;
 
   hamburger():void {
     console.log("hej");
+    this.menuOpen = !this.menuOpen;
   }
 }
