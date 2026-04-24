@@ -13,7 +13,7 @@ export class MainNav {
   menuOpen = false;
 
   hamburger():void {
-    console.log("hej");
+    
     this.menuOpen = !this.menuOpen;
   }
 }
