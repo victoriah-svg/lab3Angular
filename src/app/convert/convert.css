@@ -95,12 +95,38 @@ p:not(#intro) {
 /*--Mobil-läge--*/
 @media screen and (max-width: 600px) {
     p {
-        width: 90%;
+        width: 80%;
         justify-self: center;
+        
+    }
+
+    #inputDiv1 p{
+        font-size: 0.7rem;
+    }
+
+     #inputDiv2 p{
+        font-size: 0.7rem;
+    }
+
+     #inputDiv3 p{
+        font-size: 0.7rem;
+    }
+
+     #inputDiv4 p{
+        font-size: 0.7rem;
+    }
+
+    label{
+        font-size: 1rem;
     }
 
     #inputDiv1, #inputDiv2, #inputDiv3, #inputDiv4{
         width: 90%;
-        
+        grid-template-columns: 1fr 1fr;
+    }
+
+    button{
+        align-self: center;
+        height: 50px;
     }
 }
