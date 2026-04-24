@@ -50,6 +50,7 @@ ng build
 Publish directory: dist/namnPåProjekt/browser
 
 # länk till publicerad webbplats
+https://lab3angular-vh.netlify.app/home 
 
 
 
