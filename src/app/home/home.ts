@@ -7,4 +7,6 @@ import { Courses } from '../courses/courses';
   templateUrl: './home.html',
   styleUrl: './home.css',
 })
-export class Home {}
+export class Home {
+  victoriaImg = "/Images/Victoria.JPG"
+}
