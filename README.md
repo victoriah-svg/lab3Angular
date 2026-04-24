@@ -1,59 +1,48 @@
 # Lab3Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.7.
+Detta är laboration 3 i kursen Programmering i TypeScript vid Mittuniversitetet.
+Uppgiften syftar till att ge en grundläggande förståelse för hur Angular kan användas som ramverk för att skapa dynamiska och responsiva webbapplikationer.
+
+Arbetet innefattar även användning av CLI-verktyg för att testa applikationen och skapa optimerade filer för publicering. I uppgiften har Angulars router-modul använts för att implementera navigering mellan olika undersidor. Komponenter har skapats för respektive sida samt för återanvändning i andra delar av applikationen.
+
+Projektet fungerar också som en övning i att strukturera CSS, där både generell styling och komponentbaserad styling har använts.
+
+## Installation
+klona ner repot
+
+gå in i projektmappen
+
+installera dependencies:
+npm install
 
 ## Development server
 
-To start a local development server, run:
+För att starta lokal development-server:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+När server är igång, öppna browsern och skriv in `http://localhost:4200/`. Automatisk reload av applikationen sker när något sparas. 
 
-## Code scaffolding
+# Build 
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+För att skapa produktionsversion av applikationen:
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
 ng build
-```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Färdiga filer genereras i mappen
+dist/
 
-## Running unit tests
+# Deployment
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+Inställningar: 
 
-```bash
-ng test
-```
+Build command: ng build
 
-## Running end-to-end tests
+Publish directory: dist/namnPåProjekt/browser
 
-For end-to-end (e2e) testing, run:
+# länk till publicerad webbplats
 
-```bash
-ng e2e
-```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
