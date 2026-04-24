@@ -1,42 +1,55 @@
-<h1>Om den här webbplatsen</h1>
-<p>Denna webbplats har skapats som delmoment i kursen programmering i TypeScript. 
-    Syftet är att få en grundläggande förståelse i hur Angular kan användas som ramverk
-    för att skapa dynamiska och responsiva webbapplikationer. Så här skapades denna applikation: 
-    <br><br>
-    För att skapa ett nytt projekt skrevs kommandot: <br>
-    ng new namnPåProjekt <br><br>
-    Därefter öppnades en dev-server genom kommandot: <br>
-    ng serve
-    <br><br>
-    git-reposetoriet som skapats publicerades till github och en ny branch för development skapades. 
-    Komponenter för 3 undersidor skapades med kommandot: <br>
-    ng generate component namnPåComponent
-    <br><br>
-    I app.routes.ts-filen lades routing till för de olika undersidorna. Se exempel för about-sidan: <br>
-     path: "home", component: Home <br>
-     Detta lades till inom curly brackets. 
-     <br><br>
-     Ytterligare en komponent main-nav lades till för huvudnavigeringen på sidan och importerades som komponent i app.ts 
-     för att sedan kunna läggas till som element i app.html. RouterLink importerades i main-nav.ts och användes istället 
-     för href attributet för att ange sökvägen till de olika undersidorna. RouterLinkActive importerades också för att kunna 
-     sätta styling på aktiv länk i meny. 
-     <br><br>
-     Den sista komponenten som lades till döptes till courses där en array med kurser lades till i klassen Course 
-     i TypeScript-filen för denna komponent. Denna skrevs ut med hjälp av text interpolation i html-koden och användes 
-     sedan på startsidan. <br><br>
-     Generell styling för webbplatsen lades till i styles.css-filen och specifik styling för komponenterna lades till i 
-     css-fil för respektive komponent. Specifik html- och TypeScript-kod lades också till i specifika filer för varje komponent.
-     <br><br>
-     I komponenten som gjorts för undersidan calculate så lades properties till i klassen i ts-filen som sedan skulle 
-     användas i tvåvägsdatabinding för html-sidan. Dessa properties användes i metoder som kallas på från html-sidan då knapp klickas. 
-     En så kallad event binding. 
-    <br><br>
-    Dessutom lades filen "_redirects" till i public-katalogen som anger att trafik först ska styras in till index.html och 
-    då sköts routing sedan som det angivits i Angular. Detta gjordes för publicering via Netlify. Efter push till main-branch så gjordes 
-    alltså en deploy till Netlify där ng build angavs som build kommando och /dist/namnPåProjekt/browser angavs som directory för publicering. 
-    <br><br>
-    Det har varit väldigt smidigt att arbeta med komponenter även om det är nytt. Speciellt CSS-styling blir mycket
-    enklare att hålla ordning på då det är lätt att hitta var vilken styling ligger. Det underlättar att kunna lägga 
-    till exempel navigeringen som en egen komponent för att slippa skriva samma kod flera gånger. Det underlättar även 
-    att det endast är huvudinnehållet som byts ut för varje sida. Smidigt arbetssätt!
-</p>
+<article>
+    <h1>Om den här webbplatsen</h1>
+    <p>Denna webbplats har skapats som delmoment i kursen programmering i TypeScript.
+        Syftet är att få en grundläggande förståelse i hur Angular kan användas som ramverk
+        för att skapa dynamiska och responsiva webbapplikationer. Så här skapades denna applikation:
+        <br><br>
+        För att skapa ett nytt projekt skrevs kommandot: <br>
+        ng new namnPåProjekt <br><br>
+        Därefter öppnades en dev-server genom kommandot: <br>
+        ng serve
+        <br><br>
+        git-reposetoriet som skapats publicerades till github och en ny branch för development skapades.
+        Komponenter för 3 undersidor skapades med kommandot: <br>
+        ng generate component namnPåComponent
+        <br><br>
+        I app.routes.ts-filen lades routing till för de olika undersidorna. Se exempel för about-sidan: <br>
+        path: "home", component: Home <br>
+        Detta lades till inom curly brackets.
+        <br><br>
+        Ytterligare en komponent main-nav lades till för huvudnavigeringen på sidan och importerades som komponent i
+        app.ts
+        för att sedan kunna läggas till som element i app.html. RouterLink importerades i main-nav.ts och användes
+        istället
+        för href attributet för att ange sökvägen till de olika undersidorna. RouterLinkActive importerades också för
+        att kunna
+        sätta styling på aktiv länk i meny.
+        <br><br>
+        Den sista komponenten som lades till döptes till courses där en array med kurser lades till i klassen Course
+        i TypeScript-filen för denna komponent. Denna skrevs ut med hjälp av text interpolation i html-koden och
+        användes
+        sedan på startsidan. <br><br>
+        Generell styling för webbplatsen lades till i styles.css-filen och specifik styling för komponenterna lades till
+        i
+        css-fil för respektive komponent. Specifik html- och TypeScript-kod lades också till i specifika filer för varje
+        komponent.
+        <br><br>
+        I komponenten som gjorts för undersidan calculate så lades properties till i klassen i ts-filen som sedan skulle
+        användas i tvåvägsdatabinding för html-sidan. Dessa properties användes i metoder som kallas på från html-sidan
+        då knapp klickas.
+        En så kallad event binding.
+        <br><br>
+        Dessutom lades filen "_redirects" till i public-katalogen som anger att trafik först ska styras in till
+        index.html och
+        då sköts routing sedan som det angivits i Angular. Detta gjordes för publicering via Netlify. Efter push till
+        main-branch så gjordes
+        alltså en deploy till Netlify där ng build angavs som build kommando och /dist/namnPåProjekt/browser angavs som
+        directory för publicering.
+        <br><br>
+        Det har varit väldigt smidigt att arbeta med komponenter även om det är nytt. Speciellt CSS-styling blir mycket
+        enklare att hålla ordning på då det är lätt att hitta var vilken styling ligger. Det underlättar att kunna lägga
+        till exempel navigeringen som en egen komponent för att slippa skriva samma kod flera gånger. Det underlättar
+        även
+        att det endast är huvudinnehållet som byts ut för varje sida. Smidigt arbetssätt!
+    </p>
+</article>

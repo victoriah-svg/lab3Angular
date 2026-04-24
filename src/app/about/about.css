@@ -1,0 +1,15 @@
+article{
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    justify-items: center;
+    padding-top: 30px;
+}
+
+/*--Mobil-läge--*/
+@media screen and (max-width: 600px) {
+ article {
+    width: 90%;
+    justify-self: center;
+ }
+}
