@@ -4,7 +4,7 @@ import { MainNav } from './main-nav/main-nav';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, MainNav],
+  imports: [RouterOutlet, MainNav], //Importerar MainNav för att kunna använda i app.html
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
