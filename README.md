@@ -13,7 +13,10 @@ klona ner repot
 gå in i projektmappen
 
 installera dependencies:
+
+```bash
 npm install
+```
 
 ## Development server
 
@@ -28,8 +31,9 @@ När server är igång, öppna browsern och skriv in `http://localhost:4200/`. A
 # Build 
 
 För att skapa produktionsversion av applikationen:
-
+```bash
 ng build
+```
 
 Färdiga filer genereras i mappen
 dist/
@@ -38,8 +42,11 @@ dist/
 
 Inställningar: 
 
-Build command: ng build
+Build command: 
 
+```bash
+ng build
+```
 Publish directory: dist/namnPåProjekt/browser
 
 # länk till publicerad webbplats
