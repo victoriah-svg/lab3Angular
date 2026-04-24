@@ -6,4 +6,8 @@ import { Component } from '@angular/core';
   templateUrl: './courses.html',
   styleUrl: './courses.css',
 })
-export class Courses {}
+export class Courses {
+  courses: string[] = ["Webbutveckling", "Introduktion till programmering i JavaScript", "Webbanvändbarhet",
+    "Grafisk teknik för webb", "Frontend-baserad webbutveckling", "Datateknik - Databaser", "Backend-baserad webbutveckling",
+    "Programmering i TypeScript"];
+}

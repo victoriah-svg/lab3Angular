@@ -1,1 +1,9 @@
-<p>courses works!</p>
+<article>
+    <h2>Kurser jag läst hittils på Mittuniversitetet: </h2>
+    <ul>
+        @for(course of courses; track $index){
+            <li>{{course}}</li>
+        }
+        
+    </ul>
+</article>
