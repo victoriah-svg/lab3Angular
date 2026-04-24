@@ -7,4 +7,11 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
   templateUrl: './main-nav.html',
   styleUrl: './main-nav.css',
 })
-export class MainNav {}
+export class MainNav {
+
+  hamburgerimg = "/Images/menuebar.svg";
+
+  hamburger():void {
+    console.log("hej");
+  }
+}
