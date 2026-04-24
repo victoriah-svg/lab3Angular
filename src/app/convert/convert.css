@@ -1,15 +1,18 @@
-#contentWrapper{
+#contentWrapper {
     display: grid;
-    grid-template-rows: auto 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto 1fr 1fr 1fr 1fr;
     gap: 1rem;
     justify-items: center;
     padding-top: 20px;
+    width: 100%;
 }
+
+
 
 #inputDiv1 {
     width: 70%;
     background-color: #D0E8F2;
-    padding: 20px;
+    padding: 2%;
     border-radius: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -20,8 +23,8 @@
 
 #inputDiv2 {
     width: 70%;
-    background-color: #456268;
-    padding: 20px;
+    background-color: #638086;
+    padding: 2%;
     border-radius: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -33,7 +36,7 @@
 #inputDiv3 {
     width: 70%;
     background-color: #7C93C3;
-    padding: 20px;
+    padding: 2%;
     border-radius: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -45,7 +48,7 @@
 #inputDiv4 {
     width: 70%;
     background-color: #EEF5FF;
-    padding: 20px;
+    padding: 2%;
     border-radius: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -62,7 +65,10 @@ input {
 
 button {
     border-radius: 5px;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-height: 50px;
+    width: 100%;
     font-size: 0.9em;
     background-color: #2b3885;
     color: white;
@@ -80,8 +86,21 @@ label {
     border-radius: 5px;
 }
 
-p {
+p:not(#intro) {
     background-color: white;
     padding: 10px;
     border-radius: 5px;
+}
+
+/*--Mobil-läge--*/
+@media screen and (max-width: 600px) {
+    p {
+        width: 90%;
+        justify-self: center;
+    }
+
+    #inputDiv1, #inputDiv2, #inputDiv3, #inputDiv4{
+        width: 90%;
+        
+    }
 }
