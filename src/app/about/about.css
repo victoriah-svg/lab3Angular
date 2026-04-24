@@ -8,8 +8,10 @@ article{
 
 /*--Mobil-läge--*/
 @media screen and (max-width: 600px) {
- article {
+ h1{
     width: 90%;
-    justify-self: center;
+ }
+ p{
+    width: 90%;
  }
 }
